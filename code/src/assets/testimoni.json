@@ -1,0 +1,17 @@
+[
+  {
+    "name": "John Doe",
+    "message": "The best chicken I've ever tasted! Fresh and full of flavor.",
+    "image": "/src/assets/image/user1.webp"
+  },
+  {
+    "name": "Jane Smith",
+    "message": "The quality of service is outstanding. Highly recommend Innovators Chickens Farm.",
+    "image": "/src/assets/image/user2.webp"
+  },
+  {
+    "name": "Michael Brown",
+    "message": "Fast delivery and the chickens are always fresh. Will order again!",
+    "image": "/src/assets/image/user3.webp"
+  }
+]

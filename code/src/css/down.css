@@ -1,0 +1,58 @@
+footer {
+  background: rgb(177, 104, 9);
+  color: #f9fafb; /* putih keabu-abuan */
+  padding: 1.5rem 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+footer .social-media {
+  margin-top: 0.5rem;
+}
+
+footer .social-media a {
+  color: #423e04; /* kuning */
+  margin: 0 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, transform 0.3s;
+}
+
+footer .social-media a:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+/* Fade-in efek */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  footer {
+    padding: 1rem;
+  }
+
+  footer p {
+    font-size: 0.85rem;
+  }
+
+  footer .social-media a {
+    font-size: 0.9rem;
+    margin: 0 0.3rem;
+  }
+}
